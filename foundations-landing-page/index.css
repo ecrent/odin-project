@@ -1,0 +1,21 @@
+.header {
+   display:flex;
+   background-color: #1F2937;
+   color: white;
+   height: 100px;
+   align-items: center;
+   gap:16px;
+}
+
+.header right-links,
+left-links {
+    flex:1;
+    justify-content: space-evenly;
+  }
+
+ .header ul {
+
+    list-style-type: none;
+    
+  }
+  
